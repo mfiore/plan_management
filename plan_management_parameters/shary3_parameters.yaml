@@ -1,0 +1,7 @@
+---
+robot: 
+    name: PR2_ROBOT
+human_agents:
+    agent_names:
+        - HERAKLES_HUMAN1
+database_condition_wait_rate: 3.0

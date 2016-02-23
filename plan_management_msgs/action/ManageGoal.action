@@ -1,0 +1,6 @@
+string goal
+common_msgs/Parameter[] parameters
+---
+common_msgs/Report report
+---
+common_msgs/Report report

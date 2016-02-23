@@ -1,0 +1,7 @@
+<launch>
+    <!-- <remap from="map" to="big_map"/> -->
+    <!-- start map_server with laas_adream map -->
+    <!-- <node name="map_server" pkg="map_server" type="map_server" args="/home/mfiore/ros_workspaces/hydro_ws/src/shary3/common_launch/laas_adream" /> -->   
+    <node name="map_server_big" pkg="map_server" type="map_server" args="/home/mfiore/ros_workspaces/hydro_ws/src/shary3/common_launch/LAAS-big-v2.yaml"/> 
+
+</launch>

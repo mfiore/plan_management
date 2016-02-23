@@ -1,0 +1,6 @@
+image: LAAS-big-v2.png
+resolution: 0.1
+origin: [40, 40, 3.1416]
+occupied_thresh: 0.5
+free_thresh: 0.5
+negate: 0
