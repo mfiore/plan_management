@@ -1,5 +1,7 @@
 <launch>
-	<rosparam command="load" file="$(find shary3_parameters)/shary3_parameters.yaml" />
+	<include file="$(hatp_goal_manager)/launch/hatp_goal_manager.launch" />
+
+	<rosparam command="load" file="$(find plan_management_paraqmeters)/shary3_parameters.yaml" />
 	<node name="sequential_plan_manager" pkg="plan_manager" type="sequential_plan_manager" output="screen" />
 	<node name="simple_robot_manager" pkg="plan_manager" type="simple_robot_manager" output="screen" />
 	<node name="simple_human_manager" pkg="plan_manager" type="simple_human_manager" output="screen" />
